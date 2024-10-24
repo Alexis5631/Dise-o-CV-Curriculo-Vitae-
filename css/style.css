@@ -8,8 +8,22 @@
       }
 }
 
-.contenedor{
-    display: flex;
+table {
+    width: 100%;
+    margin: auto;
+}
+
+td {
+    width: 33%;
+    vertical-align: top;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 20px;
+    height: 700px;
+    box-sizing: border-box;
+    background-size: contain;
+    background-position: left;
 }
 
 img{
@@ -18,58 +32,59 @@ img{
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ffffff;
+    top: 50%;
 }
 
-.columna{
-    margin: 5px;
-    background-size: contain;
-    background-position: left;
-    padding: 90px;
-    max-width: 40%;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    text-align: justify;
-    background-position: left;
-    box-sizing: content-box;
-    display: block;
-    margin: auto;
-    height: 700px;
-    align-items: left;
-
+.foto{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    top: 50%;
+    margin-top: 100px;
 }
 
-.introduccion{
-    text-align: left;
-    color: rgb(255, 255, 255);
-    height: 50px;
-
+.informacionContacto{
+    color: white;
+    margin-top: 180px;
 }
-
-.estudios{
+.introduccion {
     text-align: center;
     color: rgb(255, 255, 255);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    font-size: 150%;
 }
 
-.cursos{
+.contenedor-img{
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.contenedor-img img{
+    height: 70px;
+    width: auto;
+}
+
+.estudios, .cursos {
     text-align: center;
     color: rgb(255, 255, 255);
+    margin-top: 200px;
 }
 
-.proyectos{
-    text-align: right;
+.proyectos, .experiencia, .skills {
+    text-align: center;
     color: rgb(255, 255, 255);
+    margin-top: 200px;
 }
 
-.experiencia{
-    text-align: right;
-    color: rgb(255, 255, 255);
+body {
+    background: linear-gradient(15deg, #01353b 35%, #000000 75%);
 }
 
-.skills{
-    text-align: right;
-    color: rgb(255, 255, 255);
-}
 
-body{
-    background: linear-gradient(45deg, #000000 25%, #016186 75%);
-}
+
